@@ -1,0 +1,49 @@
+# CHED Scholarship System - Git Ignore File
+
+# XAMPP specific
+xampp/htdocs/ched/xampp/
+
+# Database
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+error_log
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache
+cache/
+*.cache
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
